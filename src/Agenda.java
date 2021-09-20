@@ -14,8 +14,6 @@ public class Agenda {
         this.contactsDirectory = contactsDirectory;
         this.homeworks = homeworks;
         this.notes = notes;
-
-        System.out.println(this.calendar.toString());
     };
 
     public static Agenda getInstance(Calendar[] calendar, Contact[] contactsDirectory, Homework[] homeworks, Note[] notes) {
